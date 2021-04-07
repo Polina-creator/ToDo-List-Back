@@ -1,5 +1,5 @@
 import {Router} from 'express';
-import {getAll} from '../controllers/server.js';
+import {getAll} from '../Controllers/server.js';
 const router = Router();
 
 router.get('/', getAll)
